@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Noto Serif JP", serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Lobster", cursive;
+  font-size: 4rem;
+  color: white;
+}
+
+h2 {
+  font-family: "Langar", cursive;
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: white;
+}
+
+h3 {
+  font-family: "Langar", cursive;
+  color: #661101;
+}
+
+hr {
+  border-style: dashed none none;
+  border-width: 1px;
+}
+
+p {
+  line-height: 2;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+}
+
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: purple;
+}
+
+.top-container {
+  background-image: url("../images/PortfolioBanner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 1px;
+  height: 75vh;
+  position: relative;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.top-container h1 {
+  text-align: center;
+  position: relative;
+  top: 20vh;
+
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+.top-container h2 {
+  position: relative;
+  top: 22vh;
+
+  font-size: 2em;
+
+  animation-name: fadein;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+}
+
+.middle-container {
+  margin: 10px auto;
+  background: url(../images/struckaxiom.png);
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile h2 {
+  margin-top: 3%;
+  font-size: 2em;
+  color: purple;
+}
+
+.profile p {
+  margin: 5px 20% 5px;
+  font-size: 1.5em;
+}
+.bottom-container {
+  background-color: grey;
+  margin-top: 0;
+  padding: 50px 0 20px;
+}
+
+.contact-me {
+  background-color: #f6830f;
+}
+
+.contact {
+  color: maroon;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+.dev {
+  text-decoration: underline;
+}
+
+.skills {
+  text-align: center;
+
+  align-items: center;
+}
+.skills h2 {
+  font-size: 2em;
+  color: purple;
+  margin-top: 3%;
+}
+
+.skill-item {
+  list-style: none;
+
+  display: inline-block;
+  text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+}
+
+.skill-icon {
+  width: 25%;
+}
+
+.Projects {
+  display: flex;
+  margin-top: 75px;
+
+  display: block;
+  background: url(../images/struckaxiom.png);
+}
+
+.Project {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  line-height: 2;
+}
+
+.Project-text h2 {
+  font-size: 2em;
+  color: purple;
+  text-align: center;
+}
+
+.Project-text {
+  margin-left: 10px;
+}
+.Project-img {
+  display: flex;
+  justify-content: left;
+
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 50%;
+}
+
+.Project h3 {
+  color: purple;
+}
+
+.Project p {
+  font-size: 1.5em;
+}
+.tm {
+  color: white;
+  font-family: "Noto Serif JP", serif;
+  font-size: 0.75rem;
+  margin: 20px 0;
+}
+
+.contact-me {
+  font-family: "montserrat", sans-serif;
+  background-image: url("../images/hotel-wallpaper-black.png");
+  padding: 40px 0;
+}
+
+.contact-me h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.border {
+  width: 100px;
+  height: 10px;
+  margin: 40px auto;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.contact-form-text:hover {
+  box-shadow: 0 0 10px 4px purple;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+
+.contact {
+  padding-bottom: 50px;
+}
+
+.contact-form-btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 20px;
+  color: black;
+  font-family: "Noto Serif JP", serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+  border: solid purple 1px;
+  background: purple;
+  background-image: -webkit-linear-gradient(top, purple, purple);
+  background-image: -moz-linear-gradient(top, purple, purple);
+  background-image: -ms-linear-gradient(top, purple, purple);
+  background-image: -o-linear-gradient(top, purple, purple);
+  background-image: -webkit-gradient(to bottom, purple, purple);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.footer-icon {
+  width: 3%;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
