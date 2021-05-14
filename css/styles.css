@@ -286,6 +286,9 @@ textarea.contact-form-text {
   width: 3%;
 }
 
+.bottom-container a {
+  color: #fff;
+}
 @keyframes fadein {
   0% {
     opacity: 0;
